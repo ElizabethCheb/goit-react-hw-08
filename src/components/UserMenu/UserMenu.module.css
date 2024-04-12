@@ -1,0 +1,25 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .username {
+    font-weight: 700;
+  }
+  
+  .btn {
+    padding: 4px 8px;
+    border: 1px solid grey;
+    width: 100px;
+    border-radius: 2px;
+    align-self: center;
+    cursor: pointer;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgb(130, 130, 250);
+  }
+  
+  .btn:hover,
+  .btn:focus {
+    background-color: rgb(194, 189, 189);
+  }

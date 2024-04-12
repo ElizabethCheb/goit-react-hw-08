@@ -1,0 +1,50 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.58);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .wrapper {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgb(245, 216, 216);
+    height: 300px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .btns {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .btn {
+    padding: 4px 8px;
+    border: 1px solid grey;
+    height: 30px;
+    min-width: 80px;
+    border-radius: 2px;
+    align-self: center;
+    cursor: pointer;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgb(130, 130, 250);
+  }
+  
+  .btn:hover {
+    background-color: rgb(194, 189, 189);
+  }
+  
+  .btn:focus {
+    background-color: rgb(194, 189, 189);
+  }
